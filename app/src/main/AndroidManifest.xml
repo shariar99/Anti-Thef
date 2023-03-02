@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="ideanity.oceafarhan.antitheftapp">
 
+
     <uses-permission android:name="android.permission.REORDER_TASKS" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -19,7 +20,8 @@
 
         <activity android:name="ideanity.oceafarhan.antitheftapp.HomeActivity"/>
         <activity android:name="ideanity.oceafarhan.antitheftapp.SetPin"/>
-        <activity android:name="ideanity.oceafarhan.antitheftapp.MainActivity">
+        <activity android:name="ideanity.oceafarhan.antitheftapp.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
