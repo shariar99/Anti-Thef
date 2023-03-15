@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="ideanity.oceafarhan.antitheftapp">
+    package="ideanity.shariar99.antitheftapp">
 
 
     <uses-permission android:name="android.permission.REORDER_TASKS" />
@@ -18,9 +18,9 @@
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
 
-        <activity android:name="ideanity.oceafarhan.antitheftapp.HomeActivity"/>
-        <activity android:name="ideanity.oceafarhan.antitheftapp.SetPin"/>
-        <activity android:name="ideanity.oceafarhan.antitheftapp.MainActivity"
+        <activity android:name="ideanity.shariar99.antitheftapp.HomeActivity"/>
+        <activity android:name="ideanity.shariar99.antitheftapp.SetPin"/>
+        <activity android:name="ideanity.shariar99.antitheftapp.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,16 +29,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ideanity.oceafarhan.antitheftapp.EnterPin"
+            android:name="ideanity.shariar99.antitheftapp.EnterPin"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="ideanity.oceafarhan.antitheftapp.ResetPin"
+            android:name="ideanity.shariar99.antitheftapp.ResetPin"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="ideanity.oceafarhan.antitheftapp.ForgotPin"
+            android:name="ideanity.shariar99.antitheftapp.ForgotPin"
             android:theme="@style/AppTheme" />
         <service
-            android:name="ideanity.oceafarhan.antitheftapp.PocketService"
+            android:name="ideanity.shariar99.antitheftapp.PocketService"
             android:enabled="true"
             android:exported="true" />
     </application>

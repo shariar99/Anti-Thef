@@ -1,4 +1,4 @@
-package ideanity.oceafarhan.antitheftapp;
+package ideanity.shariar99.antitheftapp;
 
 public class Config {
     public static final String EMAIL ="your email";

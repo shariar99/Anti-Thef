@@ -1,4 +1,4 @@
-package ideanity.oceafarhan.antitheftapp;
+package ideanity.shariar99.antitheftapp;
 
 import android.content.Context;
 import android.content.Intent;

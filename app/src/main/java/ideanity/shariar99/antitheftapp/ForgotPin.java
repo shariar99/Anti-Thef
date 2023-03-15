@@ -1,4 +1,4 @@
-package ideanity.oceafarhan.antitheftapp;
+package ideanity.shariar99.antitheftapp;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 
-import static ideanity.oceafarhan.antitheftapp.SetPin.MyPREFERENCES;
+import static ideanity.shariar99.antitheftapp.SetPin.MyPREFERENCES;
 
 public class ForgotPin extends AppCompatActivity implements View.OnClickListener {
     SharedPreferences sharedpreferences;

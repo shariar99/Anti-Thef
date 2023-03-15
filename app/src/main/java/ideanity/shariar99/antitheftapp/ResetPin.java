@@ -1,4 +1,4 @@
-package ideanity.oceafarhan.antitheftapp;
+package ideanity.shariar99.antitheftapp;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,8 +13,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import static ideanity.oceafarhan.antitheftapp.SetPin.MyPREFERENCES;
-import static ideanity.oceafarhan.antitheftapp.SetPin.Password;
+import static ideanity.shariar99.antitheftapp.SetPin.MyPREFERENCES;
+import static ideanity.shariar99.antitheftapp.SetPin.Password;
 
 public class ResetPin extends AppCompatActivity {
     EditText etOldPin,etSetPin,etConfirmPin;
