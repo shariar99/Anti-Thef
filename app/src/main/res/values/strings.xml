@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name">Anti theft </string>
+    <string name="app_name">Theft Guard </string>
     <string name="logIn">login</string>
     <string name="email">Email</string>
     <string name="log_in">Log In</string>
     <string name="login">Login</string>
     <string name="not_a_member_sign_up">Not a member? Sign Up</string>
     <string name="password">Password</string>
-    <string name="anti_theft_application">Anti -Theft Application</string>
-    <string name="anti_theft_detection">Anti-Theft Detection</string>
+    <string name="anti_theft_application">Theft-Guard Application</string>
+    <string name="anti_theft_detection">Theft-Guard Detection</string>
     <string name="duplicate_contact_remover">Duplicate Contact Remover</string>
     <string name="already_have_account_login">Already have Account? Login</string>
     <string name="confirm_password">Confirm Password</string>
