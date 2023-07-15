@@ -8,10 +8,15 @@
     android:background="@color/colorPrimary"
     tools:context=".EnterPin">
 
+
+
     <ScrollView
         android:id="@+id/sv"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+
+
 
         <RelativeLayout
             android:layout_width="match_parent"
