@@ -23,7 +23,7 @@ public class ForgotPin extends AppCompatActivity implements View.OnClickListener
     EditText etEmail;
     Button btnSendPin;
     View v;
-    private CoordinatorLayout coordinatorLayout;
+
 
 
     @Override
