@@ -234,7 +234,7 @@ public class HomeActivity extends AppCompatActivity implements SensorEventListen
             // Make this higher or lower according to how much
             // motion you want to detect
             if (mAccel > 0.5) {
-                //Toast.makeText(MainActivity.this, "Sensor Run Hua Bc", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, "Sensor Runing", Toast.LENGTH_SHORT).show();
                 //MediaPlayer mPlayer = MediaPlayer.create(MainActivity.this, R.raw.siren);
                 //mPlayer.start();
                 if (mSwitchSet == 1) {
@@ -267,7 +267,7 @@ public class HomeActivity extends AppCompatActivity implements SensorEventListen
             strAppLink = "https://play.google.com/store/apps/details?id=" + appPackageName;
         }
         a.setType("text/link");
-        String shareBody = "Hey! Download by app for free and win amazing cash prizes." +
+        String shareBody = "Hey! Download by app for free." +
                 "\n"+""+strAppLink;
         String shareSub = "APP NAME/TITLE";
         a.putExtra(Intent.EXTRA_SUBJECT, shareSub);
