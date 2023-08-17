@@ -37,7 +37,7 @@ public class SetPin extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-//        mSensorManager.unregisterListener(this);
+
     }
 
     @Override
@@ -52,31 +52,9 @@ public class SetPin extends AppCompatActivity {
        // etEmail = (EditText)findViewById(R.id.etEmail);
 
         sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
-//        String email = sharedpreferences.getString("emailKey","");
-//        if(email.length()>0){
-//            startActivity(new Intent(SetPin.this, MainActivity.class));
-//        }
 
 
-//        Toast.makeText(getApplicationContext(), "email:"+email, Toast.LENGTH_SHORT).show();
-//        SharedPreferences.Editor editor=sharedpreferences.edit();
-//        boolean  firstTime=sharedpreferences.getBoolean("first", true);
-//        if(firstTime) {
-//            editor.putBoolean("first",false);
-//            editor.commit();
-////            startActivity(new Intent(SetPin.this, MainActivity.class));
-////            finish();
-//        }else {
-//            startActivity(new Intent(SetPin.this, MainActivity.class));
-////            finish();
-//        }
-//        mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-//        mProximity = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
 
-
-//        final MediaPlayer mPlayer = MediaPlayer.create(SetPin.this, R.raw.siren);
-//        AudioManager audioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
-//        audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, 20, 0);
         btnSetPin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -118,26 +96,5 @@ public class SetPin extends AppCompatActivity {
 
     }
 
-//
-
-
-//
-//    @Override
-//    public void onSensorChanged(SensorEvent event) {
-//        if (event.sensor.getType() == Sensor.TYPE_PROXIMITY) {
-//            if (event.values[0] == 0) {
-//                //near
-//                Toast.makeText(getApplicationContext(), "near", Toast.LENGTH_SHORT).show();
-//            } else {
-//                //far
-//                Toast.makeText(getApplicationContext(), "Sensor Kaam Kr Raha Hai BC", Toast.LENGTH_SHORT).show();
-//            }
-//        }
-//    }
-//
-//    @Override
-//    public void onAccuracyChanged(Sensor sensor, int accuracy) {
-//
-//    }
 
 }
