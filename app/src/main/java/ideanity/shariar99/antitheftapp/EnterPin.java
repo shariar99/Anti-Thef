@@ -62,9 +62,6 @@ public class EnterPin extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_enter_pin);
 
-        /*final Vibrator vb = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-        long[] pattern = {0, 100, 1000};
-        vb.vibrate(pattern, 0);*/
 
         sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
         final String password = sharedpreferences.getString("passwordKey", "");
@@ -84,6 +81,7 @@ public class EnterPin extends AppCompatActivity {
                     String pin = etEnterPin.getText().toString();
                     if (pin.equals(password)) {
                         mPlayer.stop();
+
                         //vb.cancel();
                         startActivity(new Intent(EnterPin.this, HomeActivity.class));
                         finish();
