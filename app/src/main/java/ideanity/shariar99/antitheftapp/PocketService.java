@@ -62,15 +62,11 @@ public class PocketService  extends Service implements SensorEventListener {
 
             startForeground(10101, _notification);
         }
-       // Toast.makeText(this, "service Start successfully", Toast.LENGTH_SHORT).show();
+
 
         mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
         mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
-//        sensorMan = (SensorManager) getSystemService(SENSOR_SERVICE);
-//        accelerometer = sensorMan.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
 
-//        sensorMan.registerListener(this, accelerometer,
-//                SensorManager.SENSOR_DELAY_UI);
         mSensorManager.registerListener(this, mSensor,
                 SensorManager.SENSOR_DELAY_NORMAL);
 
