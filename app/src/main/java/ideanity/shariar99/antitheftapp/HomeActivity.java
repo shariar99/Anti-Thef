@@ -253,26 +253,6 @@ public class HomeActivity extends AppCompatActivity implements SensorEventListen
 
     }
 
-    public void share(View view) {
 
-        Intent a = new Intent(Intent.ACTION_SEND);
-        final String appPackageName = getApplicationContext().getPackageName();
-        String strAppLink = "";
-        try
-        {
-            strAppLink = "https://play.google.com/store/apps/details?id=" + appPackageName;
-        }
-        catch (android.content.ActivityNotFoundException anfe)
-        {
-            strAppLink = "https://play.google.com/store/apps/details?id=" + appPackageName;
-        }
-        a.setType("text/link");
-        String shareBody = "Hey! Download by app for free." +
-                "\n"+""+strAppLink;
-        String shareSub = "APP NAME/TITLE";
-        a.putExtra(Intent.EXTRA_SUBJECT, shareSub);
-        a.putExtra(Intent.EXTRA_TEXT, shareBody);
-        startActivity(Intent.createChooser(a, "Share Using"));
-    }
 
 }
